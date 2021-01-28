@@ -3,11 +3,6 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import JobsList from "./components/JobsList";
 import Pagination from "./components/Pagination";
-import SearchBar from "./components/SearchBar";
-
-
-
-
 
 function App() {
   const [loading, setLoading] = useState(false);
